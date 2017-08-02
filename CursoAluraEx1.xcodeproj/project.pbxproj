@@ -8,20 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		D62812FC1F1D173A0023F67F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62812FB1F1D173A0023F67F /* AppDelegate.swift */; };
-		D62812FE1F1D173A0023F67F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62812FD1F1D173A0023F67F /* ViewController.swift */; };
-		D62813011F1D173A0023F67F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62812FF1F1D173A0023F67F /* Main.storyboard */; };
 		D62813031F1D173A0023F67F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62813021F1D173A0023F67F /* Assets.xcassets */; };
 		D62813061F1D173A0023F67F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62813041F1D173A0023F67F /* LaunchScreen.storyboard */; };
+		D62D91521F1F93AE004C4F06 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D91511F1F93AE004C4F06 /* Meal.swift */; };
+		D62D91541F1F9443004C4F06 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D91531F1F9443004C4F06 /* Item.swift */; };
+		D62D91561F1F9727004C4F06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D91551F1F9727004C4F06 /* ViewController.swift */; };
+		D62D91581F1F989B004C4F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62D91571F1F989B004C4F06 /* Main.storyboard */; };
+		D62D91961F1FC22C004C4F06 /* MealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D91951F1FC22C004C4F06 /* MealsTableViewController.swift */; };
+		D66EB8E61F22910D009AFD1F /* NewItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66EB8E41F22910D009AFD1F /* NewItemViewController.xib */; };
+		D66EB8E81F22913D009AFD1F /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66EB8E71F22913D009AFD1F /* NewItemViewController.swift */; };
+		D6C3BF7C1F2A5A1000DBA219 /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3BF7B1F2A5A1000DBA219 /* Dao.swift */; };
+		D6D170111F27B26600C59F1F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D170101F27B26600C59F1F /* Alert.swift */; };
+		D6D170131F27CCA800C59F1F /* RemoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D170121F27CCA800C59F1F /* RemoveViewController.swift */; };
+		D6D5EE3A1F227B4A0043051D /* AddAMealDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D5EE391F227B4A0043051D /* AddAMealDelegate.swift */; };
+		D6F3738F1F2634CB00F1F229 /* AddAnItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F3738E1F2634CB00F1F229 /* AddAnItemDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D62812F81F1D173A0023F67F /* CursoAluraEx1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoAluraEx1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62812FB1F1D173A0023F67F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D62812FD1F1D173A0023F67F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D62813001F1D173A0023F67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D62813021F1D173A0023F67F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D62813051F1D173A0023F67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D62813071F1D173A0023F67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D628130D1F1D3A2E0023F67F /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		D62D91511F1F93AE004C4F06 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		D62D91531F1F9443004C4F06 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D62D91551F1F9727004C4F06 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D62D91571F1F989B004C4F06 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D62D91951F1FC22C004C4F06 /* MealsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsTableViewController.swift; sourceTree = "<group>"; };
+		D66EB8E41F22910D009AFD1F /* NewItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewItemViewController.xib; sourceTree = "<group>"; };
+		D66EB8E71F22913D009AFD1F /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		D6C3BF7B1F2A5A1000DBA219 /* Dao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dao.swift; sourceTree = "<group>"; };
+		D6D170101F27B26600C59F1F /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		D6D170121F27CCA800C59F1F /* RemoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveViewController.swift; sourceTree = "<group>"; };
+		D6D5EE391F227B4A0043051D /* AddAMealDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAMealDelegate.swift; sourceTree = "<group>"; };
+		D6F3738E1F2634CB00F1F229 /* AddAnItemDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAnItemDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +75,49 @@
 		D62812FA1F1D173A0023F67F /* CursoAluraEx1 */ = {
 			isa = PBXGroup;
 			children = (
+				D62D914E1F1F9371004C4F06 /* models */,
+				D62D914F1F1F9371004C4F06 /* viewcontrollers */,
+				D62D91501F1F9371004C4F06 /* views */,
 				D62812FB1F1D173A0023F67F /* AppDelegate.swift */,
-				D62812FD1F1D173A0023F67F /* ViewController.swift */,
-				D62812FF1F1D173A0023F67F /* Main.storyboard */,
 				D62813021F1D173A0023F67F /* Assets.xcassets */,
 				D62813041F1D173A0023F67F /* LaunchScreen.storyboard */,
 				D62813071F1D173A0023F67F /* Info.plist */,
+				D628130D1F1D3A2E0023F67F /* MyPlayground.playground */,
 			);
 			path = CursoAluraEx1;
+			sourceTree = "<group>";
+		};
+		D62D914E1F1F9371004C4F06 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D6F3738E1F2634CB00F1F229 /* AddAnItemDelegate.swift */,
+				D6D5EE391F227B4A0043051D /* AddAMealDelegate.swift */,
+				D62D91511F1F93AE004C4F06 /* Meal.swift */,
+				D62D91531F1F9443004C4F06 /* Item.swift */,
+				D6C3BF7B1F2A5A1000DBA219 /* Dao.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		D62D914F1F1F9371004C4F06 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				D66EB8E71F22913D009AFD1F /* NewItemViewController.swift */,
+				D62D91551F1F9727004C4F06 /* ViewController.swift */,
+				D62D91951F1FC22C004C4F06 /* MealsTableViewController.swift */,
+				D6D170121F27CCA800C59F1F /* RemoveViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		D62D91501F1F9371004C4F06 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D62D91571F1F989B004C4F06 /* Main.storyboard */,
+				D66EB8E41F22910D009AFD1F /* NewItemViewController.xib */,
+				D6D170101F27B26600C59F1F /* Alert.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +179,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62D91581F1F989B004C4F06 /* Main.storyboard in Resources */,
 				D62813061F1D173A0023F67F /* LaunchScreen.storyboard in Resources */,
+				D66EB8E61F22910D009AFD1F /* NewItemViewController.xib in Resources */,
 				D62813031F1D173A0023F67F /* Assets.xcassets in Resources */,
-				D62813011F1D173A0023F67F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +193,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D62812FE1F1D173A0023F67F /* ViewController.swift in Sources */,
+				D6D170111F27B26600C59F1F /* Alert.swift in Sources */,
+				D62D91961F1FC22C004C4F06 /* MealsTableViewController.swift in Sources */,
+				D6C3BF7C1F2A5A1000DBA219 /* Dao.swift in Sources */,
+				D6D170131F27CCA800C59F1F /* RemoveViewController.swift in Sources */,
+				D62D91541F1F9443004C4F06 /* Item.swift in Sources */,
+				D62D91521F1F93AE004C4F06 /* Meal.swift in Sources */,
+				D6D5EE3A1F227B4A0043051D /* AddAMealDelegate.swift in Sources */,
+				D6F3738F1F2634CB00F1F229 /* AddAnItemDelegate.swift in Sources */,
+				D62D91561F1F9727004C4F06 /* ViewController.swift in Sources */,
 				D62812FC1F1D173A0023F67F /* AppDelegate.swift in Sources */,
+				D66EB8E81F22913D009AFD1F /* NewItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D62812FF1F1D173A0023F67F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D62813001F1D173A0023F67F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D62813041F1D173A0023F67F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,6 +357,7 @@
 				D628130C1F1D173A0023F67F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
